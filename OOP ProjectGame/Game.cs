@@ -55,7 +55,7 @@ namespace OOP_ProjectGame
         }
         private void Update()
         {
-
+            curBattle.Update();
             if (enemy.curHp <= 0)
             {
                 End();
